@@ -5,7 +5,7 @@
      font-family: 'Open Sans', sans-serif;
  }
  
- body, .navbar{
+ .home,.navbar{
   //gradient provided @_ighosh @uigradients.com
               background: #56CCF2; /* fallback for old browsers */
               background: -webkit-linear-gradient(to left, #56CCF2 , #2F80ED); /* Chrome 10-25, Safari 5.1-6 */
@@ -15,3 +15,9 @@
 .navbar{
     border:none;
 }
+ .home{
+     color:white;
+     margin-top: -20px;
+     padding-top: 50px;
+     padding-bottom: 100px;
+ }

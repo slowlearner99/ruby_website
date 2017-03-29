@@ -1,6 +1,7 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+ //typogrraphy styles
  h1,h2,h3{
      font-family: 'Open Sans', sans-serif;
  }
@@ -15,9 +16,22 @@
 .navbar{
     border:none;
 }
+//home Page styles
  .home{
      color:white;
      margin-top: -20px;
      padding-top: 50px;
      padding-bottom: 100px;
  }
+//navstyles
+ .navbar-default .navbar-brand ,
+ .navbar-default .navbar-nav > li > a 
+ {
+  color: white;
+  &:hover{
+      color:white;
+      opacity:0.75;
+  }
+}
+
+
